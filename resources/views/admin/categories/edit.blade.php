@@ -17,7 +17,7 @@
             </div>
         {!!Form::close()!!}
 
-            {!!Form::model($categories,['method'=>'delete','action'=>['AdminCategoriesController@destroy',$categories->id]])!!}
+        {!!Form::model($categories,['method'=>'delete','action'=>['AdminCategoriesController@destroy',$categories->id]])!!}
             <div class="form-group">
                 {!!Form::submit('Delete Category',['class'=>'btn btn-danger col-sm-6'])!!}
             </div>
